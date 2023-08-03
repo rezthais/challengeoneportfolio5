@@ -1,0 +1,215 @@
+/* Estilo do corpo do documento */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo pastel */
+    color: #555; /* Cor de texto mais suave */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #5088ad; /* Azul pastel */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    display: inline;
+    font-size: 24px;
+    margin: 0;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+}
+
+/* Estilo da saudação */
+.saudacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.saudacao ul li a {
+    display: inline-block; /* Garante que o link e o ícone compartilhem a mesma linha */
+    vertical-align: middle; /* Alinha verticalmente o ícone em relação ao texto */
+}
+
+.saudacao ul li a img {
+    width: 30px; /* Redimensione o ícone do LinkedIn */
+    height: auto;
+    vertical-align: middle; /* Alinha o ícone verticalmente em relação ao texto */
+}
+
+.saudacao-foto {
+    width: 200px; /* Aumente o tamanho da sua foto */
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Adicione margem inferior para separar a foto do texto */
+    object-fit: cover;
+}
+
+/* Estilo da seção 'Sobre mim' */
+.sobre-mim {
+    background-color: #fff;
+    padding: 40px;
+    text-align: justify;
+}
+
+.título {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.texto {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Estilo da seção 'Projetos' */
+.projetos {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.projetos-item-descritivo {
+    font-weight: bold;
+}
+
+.projetos-item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.codepen {
+    border: 2px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo da seção 'Experiências' */
+.experiencia {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.faesa {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.faesa h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.faesa h2 {
+    font-size: 16px;
+    color: #888;
+    margin: 0;
+}
+
+.faesa h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.fortlev {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fortlev h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.fortlev h2 {
+    font-size: 16px;
+    color: #888;
+    margin: 0;
+}
+
+.fortlev h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilo da seção 'Skills' */
+.skillsforma {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsforma-descritivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.flex-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.flex-item img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.flex-item p {
+    margin: 10px 0 0;
+}
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #5088ad;;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para links */
+a {
+    color: #555;
+}
+
+a:hover {
+    color: #333;
+}
